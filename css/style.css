@@ -1,0 +1,149 @@
+.navbar .img-fluid{
+    max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #f76b8a ;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f8345e;
+}
+
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #f8345e ;
+}
+
+.slider-search{
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 232px;
+}
+
+.slider-search .btn-outline-success:hover {
+    color: #fff;
+    background-color: #f8345e;
+    border-color: #f8345e;
+}
+
+.slider-search .btn-outline-success:focus {
+    box-shadow: 0 0 0 .25rem #f8345e;
+}
+
+.slider-search .btn-outline-success:active {
+    color: #fff;
+    background-color: #f8345e;
+    border-color: #f8345e;
+}
+
+.slider-search .btn-outline-success {
+    color: #fff;
+    border-color: #f76b8a;
+    background-color: #f76b8a;
+}
+
+.border-radius{
+    border-radius: 2rem;
+}
+
+.food-item{
+    max-width: 49%;
+}
+
+
+
+.footer .coppyright{
+    color:#f76b8a ;
+}
+
+.footer .coppyright:hover{
+    color:#f8345e ;
+}
+
+
+/* food-order */
+.food-order{
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+fieldset{
+    border:1px solid white ;
+}
+legend{
+    width: 28%;
+    float: none;
+}
+
+.food-order .card{
+    border:none;
+    background-color: inherit;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* search */
+    .navbar .d-flex{
+        display: block !important;
+        width: 100% !important;
+    }
+    .navbar .form-control {
+      flex: 1 0 0%;
+      width: 100%;
+    }
+    .navbar .btn-outline-success{
+        margin-top: .5rem;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+    /* explore */
+
+    .explore-food .row .col-md-4{
+        display: flex;
+        justify-content: center;
+    }
+    .col-md-4 .card{
+        width: 75%;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    /* food menu */
+    .food-menu .row{
+        display: flex;
+        justify-content: center !important;
+    }
+    .food-menu .card{
+        max-width: 75%;
+    }
+}
+
+
+.dashboard .card{
+    max-width: 5rem;
+}
+
+.dashboard .col-md-3{
+    margin: 1rem -1rem;
+}
+
+.category td img{
+    max-width: 3.5rem;
+}
+.category tbody tr{
+    line-height: 4rem;
+}
+
+
+.food_manage td img{
+    max-width: 3.5rem;
+}
+.food_manage tbody tr{
+    line-height: 4rem;
+}
+.order_manage tbody tr{
+    line-height: 4rem;
+}
